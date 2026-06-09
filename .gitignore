@@ -1,0 +1,4 @@
+recipes
+vendor
+web
+!web/modules/custom

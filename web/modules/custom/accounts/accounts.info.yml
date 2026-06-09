@@ -1,0 +1,5 @@
+name: 'Accounts'
+type: module
+description: 'Accounts functionality'
+core_version_requirement: ^11
+package: 'Accounts'
