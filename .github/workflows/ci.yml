@@ -18,7 +18,5 @@ jobs:
 
       - name: Stuff
         run: |
-          - pwd
-          - pwd
-          
-
+          pwd
+          ls
