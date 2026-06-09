@@ -16,5 +16,8 @@ jobs:
         with:
           php_extensions: "gd"
 
-      - name: Stuff  
+      - name: Stuff
+        run: pwd
+        run: ls -al
+          
 
