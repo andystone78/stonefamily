@@ -19,4 +19,4 @@ jobs:
       - name: Stuff
         run: |
           pwd
-          ls
+          ls -al
