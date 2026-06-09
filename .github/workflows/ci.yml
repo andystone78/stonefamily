@@ -1,0 +1,13 @@
+name: CI
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: redhat/ubi10-minimal:latest-source
+
+    steps:
+    - uses: actions/checkout@v5
+    - uses: php-actions/composer@v6
+
+    - run: pwd
