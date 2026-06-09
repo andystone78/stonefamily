@@ -19,6 +19,6 @@ jobs:
       - name: Stuff
         run: |
           - pwd
-          - "ls -al"
+          - ls
           
 
