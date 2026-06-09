@@ -20,3 +20,14 @@ jobs:
         run: |
           pwd
           ls -al
+          
+     - name: Deploy
+       uses: appleboy/ssh-action@v1
+       with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        script: |
+          whoami
+          ls -al
+
