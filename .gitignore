@@ -1,4 +1,6 @@
 recipes
 vendor
-web
-!web/modules/custom
+web/*
+web/modules/README.txt
+web/modules/contrib/*
+!web/modules
